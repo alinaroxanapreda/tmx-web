@@ -7,7 +7,7 @@ class Greet extends React.Component {
     }
 
     changeValue = () => {
-        this.setState({val: "wonderful from Alina"})
+        this.setState({val: " wonderful from Alina"})
     }
     render() {
         return(
@@ -19,3 +19,5 @@ class Greet extends React.Component {
         );
     }
 }
+
+export default Greet;
